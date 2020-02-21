@@ -92,7 +92,7 @@ function fib2(n)
 * Now, F<sub>200</sub> or even F<sub>200000</sub> can be reasonably computed, but ...
 * One outstanding issue: 
   * It is reasonable to treat addition as a single computer step if small numbers are being added, 32-bit numbers say. 
-  * But the *n*th Fibonacci number is about 0.694 bits long, and this can far exceed 32 as n grows. 
+  * But the $nth$ Fibonacci number is about 0.694 bits long, and this can far exceed 32 as n grows. 
   * Arithmetic operations on arbitrarily large numbers cannot possibly be performed in a single, constant-time step. 
   * The addition of two n-bit numbers takes time roughly proportional to n. Thus fib1, which performs about F<sub>n</sub> additions, actually uses a number of basic steps roughly proportional to nF<sub>n</sub>. 
   * fib2(n) has to add increasingly large integers. 
