@@ -24,5 +24,3 @@
   * It is certainly true that in a single instruction we can add integers whose size in bits is within the *word length* of today's computer - 32 perhaps. But, it is often useful and necessary to handle numbers much larger than this, perhaps several thousand bits long. Adding and multiplying such large numbers on real computers is very much like performing the operations bit by bit. 
   * When we want to understand algorithms, it makes sense to study even the basic algorithms that are encoded in the hardware of today's computers. In doing so, we shall focus on the *bit complexity* of the algorithm, the number of elementary operations on individual bits - because this accounting reflects the amount of hardware, transistors and wires, necessary for implementing the algorithm. 
 
-### Multiplication and division
-
