@@ -1,5 +1,12 @@
 # Big-O Notation
 
+##### 算法分析
+
+两个主要方面：
+
+* 正确性： 算法功能与问题要求一致？需要数学证明。
+* 成本： 运行时间 + 所需存储空间 （时间比空间更重要）
+
 * need to be precise, but not overly detailed. 
 * express running time by counting the number of basic computer steps, as a function of the size of the input.
 
@@ -28,9 +35,11 @@
 
 
 
-
-
-
+* $T_A(P) = 算法A求解问题实例P的计算成本$
+  * 考察具体实例意义不大，毕竟可能出现的问题实例太多
+  * 如何归纳概括？划分等价类
+  * 观察：问题实例的*规模*，往往是决定计算成本的主要因素
+  * 通常：规模接近，计算成本也接近；规模扩大，计算成本也上升。
 
 
 
